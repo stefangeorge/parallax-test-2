@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
      button = $('.button'),
      mywindow = $(window),
      htmlbody = $('html,body'),
-     dataslide = $("");
+     dataslide = $("data-slide");
     //Setup waypoints plugin
     slide.waypoint(function (event, direction) {
         //cache the variable of the data-slide attribute associated with each slide
